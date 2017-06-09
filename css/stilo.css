@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+html,body{
+    width: 100%;
+    height:100%;
+    font-size: 10px;   
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.principal{
+	position: relative;
+	font-size: 2.5rem;
+	color: #999093;
+	height: 100vh;
+	background: url(../img/img.jpg);
+	background-position: bottom center;
+}
+.fundo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: rgba(0, 0, 0, .8);
+}
+#mentalism{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+}
+.principal i {
+	float: right;
+	margin: 2.5%;
+}
+
+.img-triangulo{
+	width: 7.1rem;
+	height: 5.4rem;
+	margin: 2.5%;
+	vertical-align: middle;
+}
+
+.principal h1{
+	font-family: 'Lora', serif;
+	font-size: 11rem;
+	color: #e31c45;
+	font-weight: 700;
+	
+	margin-bottom: .3%;
+}
+
+.linha{
+	margin-top:1.1%;
+	margin-left:10%; 
+	margin-right: 2%;
+	width: 11.5rem; 
+    border-color: #999093;
+    float: left;
+}
+
+.text1{
+	position: relative;
+	padding-top:11.3%;
+	padding-left: 10.5%; 
+	clear: both;
+}
+
+.magic{
+	text-transform: uppercase;
+	transform:rotate(270deg); 
+	display:block;
+	position: absolute;
+	top: 78%;
+	left: 7.6%;
+	font-size: 1rem;
+	color: #999093;
+}
+
+.videos{
+	text-align: center;
+	margin-top:-7.1%;
+	float: left;
+	clear: left;
+	margin-left:10%;
+	color: #999093;
+}
+
+.numero{
+	font-size: 6rem;
+	font-weight: 700;
+	line-height: 1;
+	color: white;
+}
+
+.vd{
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.text2{
+	float: left;
+	width: 34%;
+	font-size: 1.6rem;
+	color: #999093;
+}
+@media screen and (max-width: 760px){
+	
+}
