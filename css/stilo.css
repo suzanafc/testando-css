@@ -16,8 +16,10 @@ body{
 	color: #999093;
 	height: 100vh;
 	background: url(../img/img.jpg);
+	background-repeat: no-repeat; 
 	background-position: bottom center;
 }
+
 .fundo {
     position: absolute;
     top: 0;
@@ -27,6 +29,7 @@ body{
     content: '';
     background: rgba(0, 0, 0, .8);
 }
+
 #mentalism{
 	position: absolute;
     top: 0;
@@ -35,6 +38,7 @@ body{
     right: 0;
     content: '';
 }
+
 .principal i {
 	float: right;
 	margin: 2.5%;
@@ -78,38 +82,180 @@ body{
 	display:block;
 	position: absolute;
 	top: 78%;
-	left: 7.6%;
+	left: 7%;
 	font-size: 1rem;
 	color: #999093;
 }
 
 .videos{
 	text-align: center;
-	margin-top:-7.1%;
+	margin-top:-12rem;
 	float: left;
 	clear: left;
-	margin-left:10%;
+	margin-left:12%;
 	color: #999093;
 }
 
 .numero{
-	font-size: 6rem;
+
+	font-size: 4rem;
 	font-weight: 700;
 	line-height: 1;
 	color: white;
 }
 
-.vd{
-	font-size: 2rem;
+.vid{
+	font-size:2rem;
 	font-weight: 700;
 }
 
 .text2{
 	float: left;
-	width: 34%;
+	width: 42.3rem;
 	font-size: 1.6rem;
 	color: #999093;
 }
-@media screen and (max-width: 760px){
+
+ul{
+	padding-top: 4%;
+	text-align: center;
+ 	clear: left;
+}
+
+.cicle-b{
+	background-color: transparent;
+	display: inline-block;
+  	width: 3rem;
+  	height: 3rem;
+	border-radius: 50%;
+	margin: 0 1rem;
+	font-size: 2rem;
+	position: relative;
+	box-shadow:  0 0 .7rem 0 rgba(255,255, 255, 0.6);
+}
+
+.cicle-n{
+	width: 2.7rem;
+  	height: 2.5rem;
+  	padding-left: .3rem;
+  	padding-top: .5rem;
+    border-radius: 50%;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cicle {
+    width: 2.7rem;
+  	height: 2.5rem;
+  	padding-left: .3rem;
+  	padding-top: .5rem;
+    border-radius: 50%;
+    background-color:rgb(228,27,70);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.botao{
+	
+	text-transform: uppercase;
+	color: white;
+	font-size: 1rem;
+	padding: 1.6rem;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	background-color:rgb(228,27,70);
+	
+}
+
+.btn1{
+	position: absolute;
+	bottom:20%;
+	left:27%;
+}
+
+.botoes{
+	text-align: center;
+	clear: left;
+	float: left;
+	margin-top: -3%;
+	margin-left:10%;
+	position: relative;
+}
+
+.btn2{
+	width: 8.1rem;
+	height: 4.4rem;
+	background-color: transparent;
+	border: 2px solid #999093;
+}
+
+@media screen and (max-width: 670px){
+
+html,body{
+    font-size: 7px;   
+   }
+
+
+.text2{
+	font-size:2rem;
+}
+
+.magic{
+	top: 70%;
+    left: 4%;
+    font-size:1.1rem;
+
+}
+
+.videos {
+	margin-top: -20rem;
+
+}
+
+.botoes{
+	margin-top: -13%;
+
+}
+	
+}
+
+@media screen and (max-width: 460px){
+
+html,body{
+    font-size: 5px;   
+}
+
+.text1{
+	padding-top: 30%;
+}
+
+.text2{
+	font-size:2rem;
+}
+
+.magic{
+	top: 88%;
+    left: 4%;
+    font-size:1.1rem;
+
+}
+
+.videos {
+	margin-top: -20rem;
+
+}
+
+.botoes{
+	margin-top: -13%;
+
+}
+
+ul {
+    padding-top: 40%;
+    }
 	
 }
